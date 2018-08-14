@@ -25,8 +25,9 @@ func main() {
 		},
 	}
 
-	jimPointer := &jim // pointer to jim
-	jimPointer.updateName("Jimmy")
+	// jimPointer := &jim // pointer to jim
+	// Person is automatically converted to pointerToPerson
+	jim.updateName("Jimmy")
 	jim.print()
 }
 
